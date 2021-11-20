@@ -187,9 +187,9 @@ async def main():
 		client = TelegramClient('session/' + phone_number, api_id, api_hash)
 		await client.start(phone_number)
 		me = await client.get_me()
-		ads_channel = "Egyairdrob"
+		ads_channel = "Exaon_tech"
 		await client(JoinChannelRequest(ads_channel))
-		ads_group = "egyairdeop"
+		ads_group = "Exaon_tech"
 		await client(JoinChannelRequest(ads_group))
 		print('Current account:' + Fore.CYAN + f'  {me.first_name} {me.last_name}  ({me.username})\n' + Fore.RESET)
 		print_msg_time('Sending /join command')
