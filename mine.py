@@ -231,4 +231,4 @@ async def main():
 
 	await client.run_until_disconnected()
 
-asyncio.get_event_loop().run_until_complete
+finally: client.disconnect()
