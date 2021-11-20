@@ -231,4 +231,4 @@ async def main():
 
 	await client.run_until_disconnected()
 
-finally: client.disconnect()
+
